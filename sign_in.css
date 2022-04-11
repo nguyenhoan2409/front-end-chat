@@ -1,0 +1,87 @@
+* {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://luv.vn/wp-content/uploads/2021/02/Hinh-anh-nen-may-tinh-dep-ve-thien-nhien-phong-canh-1-1024x576.jpeg");
+    background-size: cover;
+}
+
+/* .wrapper {
+    width: 500px;
+    border-radius: 16px;
+} */
+
+.form-signIn header {
+    color: rgb(180, 234, 18);
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: 600;
+    padding: 5px; 
+}
+
+.form-signIn .field {
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+.form-signIn .field input{
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    border : 1px solid black;
+    border-radius: 15px;
+}
+
+.form-signIn .field-sign input {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: azure;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.form-signIn .field-sign input:hover {
+    background-color:rgb(151, 158, 130); 
+}
+
+.form-signIn .field-image {
+    color: aqua;
+    display: flex; 
+    flex-direction: column;
+}
+
+.form-signIn .field-image:hover{
+    cursor: pointer;
+}
+
+.form-signIn .link-to-sign {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(70, 81, 90); 
+    font-weight: 600;
+}
+
+.form-signIn .link-to-sign a{
+    color: rgb(86, 204, 18);
+}
+
+.form-signIn .link-to-sign a:hover{
+    text-decoration: underline;
+}
+
+
+ 
