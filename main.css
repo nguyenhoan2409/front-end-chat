@@ -1,0 +1,138 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --green-color: #0091ff;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+   /* font-family: 'roboto', sans-serif;*/
+   box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_full-width {
+    width: 100%;
+}
+
+.grid_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tab {
+    display:inline-flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.tab__1 {
+    width: 64px;
+    height: 750px;
+    background-color: #0091ff;
+    padding-top: 70px;
+}
+
+
+
+.tab__1__list-items1, .tab__1__list-items2, .tab__1__list-items3 {
+    width: 64px;
+    height: 64px;
+    font-size: 18px;
+    display:inline-block ;
+    align-items: center;
+    justify-content: center;
+    background-color: #0091ff;
+    border: none;
+}
+
+
+.tab__1__list-items1:hover,.tab__1__list-items2:hover,.tab__1__list-items3:hover {
+    cursor: pointer;
+    background-color: blue;
+    border: 0 2px solid ;
+}
+
+
+.tab__2 {
+    width: 350px;
+    height: 750px;
+    background-color: #fff;
+    border-top-width: 0px;
+    border-right: 2px;
+    border-bottom-width: 0;
+    border-left: 2px;
+    border-style: solid; 
+    border-color: rgb(192, 190, 190); 
+    
+}
+
+.tab__3 {
+    width: 1120px;
+    height: 750px;
+    background-color: #fff;
+}
+
+/*
+tab__3_infoChat
+tab__3_list
+tab__3_inputChat
+*/
+
+.tab__3_infoChat {
+    height: 68px;
+    width: 100%;
+    border-left: 0;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: rgb(192, 190, 190); 
+}
+
+.tab__3_list {
+    list-style: none;
+    height: 46px;
+    width: 100%;
+    border-left: 0;
+    border-right: 0px;
+    border-top: 2px;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: rgb(192, 190, 190); 
+    margin-top: 580px;
+}
+
+.tab__3_inputChat {
+    height: 55px;
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top-width: 2px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: rgb(192, 190, 190);
+   
+}
+
+.input_chat {
+    height: 55px;
+    width: 80%;
+    border-style: none;
+    font-size: 20px;
+}
+
+
