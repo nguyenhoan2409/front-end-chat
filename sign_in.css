@@ -8,7 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url("https://luv.vn/wp-content/uploads/2021/02/Hinh-anh-nen-may-tinh-dep-ve-thien-nhien-phong-canh-1-1024x576.jpeg");
+    background-image: url("https://www.hostinger.vn/huong-dan/wp-content/uploads/sites/10/2019/01/huong-dan-su-dung-vps.jpg");
     background-size: cover;
 }
 
@@ -17,7 +17,7 @@ body {
     border-radius: 16px;
 } */
 
-.form-signIn header {
+.form-sign header {
     color: rgb(180, 234, 18);
     text-align: center;
     font-size: 30px;
@@ -26,14 +26,14 @@ body {
     padding: 5px; 
 }
 
-.form-signIn .field {
+.form-sign .field {
     display: flex; 
     flex-direction: column; 
     margin-bottom: 10px;
     color: aqua;
 }
 
-.form-signIn .field input{
+.form-sign .field input{
     height: 40px;
     font-size: 16px;
     padding: 0 10px;
@@ -41,45 +41,51 @@ body {
     border-radius: 15px;
 }
 
-.form-signIn .field-sign input {
+.form-sign .field.sign  {
     font-size: 15px;
     font-weight: 600;
     margin-top: 10px;
     height: 40px;
     border: none;
     background-color: black;
-    color: azure;
     border-radius: 16px;
     cursor: pointer;
 }
 
-.form-signIn .field-sign input:hover {
+.form-sign .field.field.sign a{
+    color: azure;
+    text-align: center;
+    margin-top: 10px;
+}
+.form-sign .field.sign:hover {
     background-color:rgb(151, 158, 130); 
 }
 
-.form-signIn .field-image {
+
+
+.form-sign .field-image {
     color: aqua;
     display: flex; 
     flex-direction: column;
 }
 
-.form-signIn .field-image:hover{
+.form-sign .field-image input{
     cursor: pointer;
 }
 
-.form-signIn .link-to-sign {
+.form-sign .link-to-sign {
     margin-top: 10px;
     font-size: 15px;
     text-align: center;
-    color: rgb(70, 81, 90); 
+    color: rgb(239, 244, 248); 
     font-weight: 600;
 }
 
-.form-signIn .link-to-sign a{
+.form-sign .link-to-sign a{
     color: rgb(86, 204, 18);
 }
 
-.form-signIn .link-to-sign a:hover{
+.form-sign .link-to-sign a:hover{
     text-decoration: underline;
 }
 
