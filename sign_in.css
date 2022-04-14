@@ -31,6 +31,7 @@ body {
     flex-direction: column; 
     margin-bottom: 10px;
     color: aqua;
+    position: relative;
 }
 
 .form-sign .field input{
@@ -52,16 +53,27 @@ body {
     cursor: pointer;
 }
 
-.form-sign .field.sign a{
-    color: azure;
-    text-align: center;
-    margin-top: 10px;
+.form-sign .field.sign input {
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
 }
-.form-sign .field.sign:hover {
+
+.form-sign .field.sign input:hover {
     background-color:rgb(151, 158, 130); 
 }
 
+.form-sign .field i{
+    position: absolute;
+    right: 15px;
+    top: 50%; 
+    color: black;
+    cursor: pointer;
+}
 
+.form-sign .field i:hover {
+    color: aqua;
+}
 
 .form-sign .field-image {
     color: aqua;
